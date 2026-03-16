@@ -1,0 +1,25 @@
+Table Name: DM_ACCOUNT
+
+Description:
+Stores core account master data including customer linkage, contract reference, product, currency, limits, status, and effective dates.
+
+Primary Key:
+- ACCOUNT_SEQ_NO
+
+Business Uniqueness:
+- ACCOUNT_SEQ_NO + EFFECTIVE_START_DATE
+
+Key Columns:
+- ACCOUNT_SEQ_NO: Unique account identifier
+- CUSTOMER: Customer linked to the account
+- CONTRACT_CODE: Contract or arrangement reference
+- PROD_CODE: Product code
+- CURRENCY: Account currency
+- STATUS: Account status code
+- ACC_DEB_LIMIT: Debit limit
+- EFFECTIVE_START_DATE: Account effective start date
+- EFFECTIVE_END_DATE: Account effective end date
+
+Usage:
+Used for account-level reporting, customer exposure analysis, balance and limit checks, account lifecycle tracking, and operational queries.
+ 

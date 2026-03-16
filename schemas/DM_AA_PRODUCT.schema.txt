@@ -1,0 +1,17 @@
+Table Name: DM_AA_PRODUCT
+
+Description:
+Stores product master information including availability dates, lifecycle status, and descriptive details.
+
+Columns:
+- PRODUCT (Primary Key): Unique identifier or name of the product
+- PRODUCT_STATUS: Current status such as active or discontinued
+- AVAILABLE_DATE: Date when the product becomes active
+- CAT_EXPIRY_DATE: Expiry date of the product or product category
+- DESCRIPTION: Detailed description of the product
+- M: Generic numeric field for internal calculations
+- S: Generic numeric field for sequencing or system metrics
+
+Usage:
+Used for product lifecycle tracking, product-based reporting, analytics, and regulatory classification.
+ 

@@ -1,0 +1,23 @@
+Table Name: DM_AA_ARR_ACCOUNT_DETAILS
+
+Description:
+Stores arrangement-level effective dates, validity periods, posting restrictions, and business-date snapshots.
+
+Columns:
+- ARRANGEMENT_ID: Identifier of the customer arrangement or contract
+- PROPERTY: Code describing the type or property of the arrangement
+- DATE_SEQ_NO: Sequence number for ordering multiple records per arrangement
+- START_DATE: Date when the arrangement became active
+- EXPIRY_DATE: Date when the arrangement expires
+- POSTING_RESTRICT: Code indicating posting or transaction restrictions
+- BUSINESS_DATE: Banking business date representing the effective snapshot
+- CREATED_DATE: Record creation timestamp
+- M: Generic numeric field for internal calculations
+- S: Generic numeric field for sequencing or system metrics
+
+Primary Key:
+(ARRANGEMENT_ID, DATE_SEQ_NO, BUSINESS_DATE)
+
+Usage:
+Used for tracking arrangement validity periods, posting restrictions, and effective-date–based changes.
+ 

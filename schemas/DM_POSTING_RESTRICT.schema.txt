@@ -1,0 +1,22 @@
+Table Name: DM_POSTING_RESTRICT
+
+Description:
+Stores posting restriction rules including transaction blocks, overrides, audit controls, and authorization metadata.
+
+Primary Key:
+- POSTING_RESTRICT_SK (surrogate)
+
+Business Key:
+- ID + POSTING_RESTR_CODE
+
+Key Columns:
+- POSTING_RESTR_CODE: Restriction code
+- RESTRICTION_TYPE: Type of restriction
+- RECORD_STATUS: Restriction status
+- ALLOW_TXN: Allow transaction flag
+- TXN_CODE: Affected transaction code
+- CO_CODE: Company or branch code
+
+Usage:
+Used to control transaction posting, enforce debit/credit restrictions, manage overrides, and support audit and compliance reporting.
+ 

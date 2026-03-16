@@ -1,0 +1,17 @@
+Table Name: DM_AA_ACCOUNT_DETAILS
+
+Description:
+Stores account arrangement aging, dormancy, and maturity information used by banking operations teams.
+
+Columns:
+- ID (Primary Key): Unique identifier for the account aging record
+- ARR_AGE_STATUS: Aging status of the arrangement such as current or overdue
+- ARR_DORMANCY_STATUS: Indicates whether the arrangement is active or dormant
+- ARRANGEMENT_ID: Identifier of the banking arrangement or contract
+- MANUAL_AGEING: Indicates whether aging was applied manually or by system
+- CREATED_DATE: Date when the aging record was created
+- BUSINESS_DATE: Bank business date for which aging applies
+- MATURITY_DATE: Maturity or end date of the arrangement
+
+Usage:
+Used to identify overdue, dormant, matured, or manually aged banking arrangements.

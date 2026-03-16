@@ -1,0 +1,42 @@
+Table Name: DM_USER
+
+Description:
+Stores system user master data including login credentials, roles, access profile,
+company and department mapping, audit fields, and lifecycle dates.
+
+Columns:
+USER_ID – Unique user identifier
+USER_NAME – Full name of the user
+SIGN_ON_NAME – Login name used for authentication
+START_DATE_PROFILE – User profile start date
+END_DATE_PROFILE – User profile end date
+INIT_APPLICATION – Initial applications assigned
+DATE_LAST_SIGN_ON – Last login timestamp
+LOGIN_STATUS – Login status (active/inactive)
+CHANNEL – Access channel
+CO_CODE – Company code
+COMPANY_CODE – Company or organization code
+DEPT_CODE – Department code
+COMPANY_RESTR – Company-level restrictions
+APPLICATION – Primary application assigned
+CREATED_DATE – Record creation timestamp
+MODIFIED_DATE – Record modification timestamp
+PASSW_CHANGE_DATE – Password change timestamp
+ATTRIBUTES – Additional user attributes
+CURR_NO – Internal numeric user code
+USER_ROLES – Roles assigned to user
+DATE_TIME – Record entry timestamp
+USER_SEQ_NO – Sequential user number
+BUSINESS_DATE – Business date
+INPUTTER – Record input user
+AUTHORISER – Record authoriser
+M – Internal marker field
+S – Internal marker field
+
+Primary Key:
+USER_ID
+
+Usage:
+Used for authentication, authorization, access control,
+audit trails, operational reporting, and security analytics.
+       

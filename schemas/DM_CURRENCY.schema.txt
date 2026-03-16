@@ -1,0 +1,20 @@
+Table Name: DM_CURRENCY
+
+Description:
+Stores currency master data and foreign exchange rates by business date.
+
+Primary Key:
+- CURRENCY_CODE + BUSINESS_DATE
+
+Key Columns:
+- CURRENCY_CODE: Currency identifier
+- BUSINESS_DATE: FX rate effective date
+- MID_REVAL_RATE: Mid-market exchange rate
+- BUY_RATE: Buy exchange rate
+- SELL_RATE: Sell exchange rate
+- NO_OF_DECIMALS: Currency precision
+- COUNTRY_CODE: Country associated with the currency
+
+Usage:
+Used for currency conversion, FX revaluation, balance reporting in local currency, and financial analytics.
+  

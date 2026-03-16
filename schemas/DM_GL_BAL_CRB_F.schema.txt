@@ -1,0 +1,22 @@
+Table Name: DM_GL_BAL_CRB_F
+
+Description:
+Stores general ledger and credit balance facts by contract, line number, and business date.
+
+Primary Key:
+- CONTRACT_CODE + LINE_NO + BUSINESS_DATE
+
+Key Columns:
+- CONTRACT_CODE: Contract or account identifier
+- LINE_NO: GL line identifier
+- BUSINESS_DATE: Balance snapshot date
+- LCY_BALANCE: Local currency opening balance
+- LCY_CLOSING_BALANCE: Local currency closing balance
+- USD_EQU_BALANCE: USD equivalent balance
+- CURRENCY: Account currency
+- SECTOR: Sector classification
+- CUSTOMER_ID: Customer reference
+
+Usage:
+Used for GL reporting, regulatory submissions, credit exposure analysis, sector-wise reporting, and financial consolidation.
+ 

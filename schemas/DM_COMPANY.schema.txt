@@ -1,0 +1,21 @@
+Table Name: DM_COMPANY
+
+Description:
+Stores branch and company master information including location, zone, currency, and operational status.
+
+Primary Key:
+- BRANCH_CODE
+
+Key Columns:
+- BRANCH_CODE: Branch identifier
+- BRANCH_NAME: Branch name
+- STATUS: Operational status
+- CO_CODE: Company code
+- ZONE_CODE: Zone identifier
+- ZONE_NAME: Zone name
+- LOCAL_CURRENCY: Branch local currency
+- CSD_CITY: Branch city
+
+Usage:
+Used for branch-wise reporting, zone analysis, company-level aggregation, operational dashboards, and regulatory reporting.
+  

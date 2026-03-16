@@ -1,0 +1,58 @@
+Table Name: DM_TPH_PPT
+
+Description:
+Stores bulk and file-level payment processing information for TPH.
+Captures settlement details, file metadata, processing status, errors,
+approval information, and audit attributes for bulk payments.
+
+Columns:
+TPH_PPT_ID – Unique bulk payment tracking identifier
+BULK_COMPANYID – Company associated with the bulk payment
+BULK_FILEREFERENCE – Bulk file reference
+BULKREFERENCE – Unique bulk payment reference
+BULKREFERENCEINCOMING – Incoming bulk reference
+CREATIONDATETIME – Record creation timestamp
+BULKFORMAT – Format of the bulk file
+BULKPAYMENTTYPE – Type of bulk payment
+NUMBEROFTRANSACTIONS – Number of transactions in the bulk
+SETTLEMENTAMOUNT – Settlement amount
+SETTLEMENTCURRENCY – Settlement currency
+SETTLEMENTDATE – Settlement date
+STATUSCODERECEIVEDBULK – Bulk processing status code
+BULK_ERRORCODE – Bulk error code
+BULK_ERRORINFORMATION – Bulk error details
+AUTHOISER – Authorising user
+CO_CODE – Company code
+SOURCETYPE – Source type
+BULKPAYMENTMETHOD – Bulk payment method
+FILE_FILEREFERENCE – File reference
+RECEIVEDDATETIME – File received timestamp
+FILE_COMPANYID – Company ID from file
+ORIGINATINGCHANNEL – Originating channel
+MESSAGEFORMAT – Message format
+FILETYPE – File type
+FILENAME – File name
+NUMBEROFRECORDS – Number of records in file
+STATUSCODERECEIVEDFILE – File processing status
+FILE_ERRORCODE – File error code
+FILE_ERRORINFORMATION – File error details
+ORIGINATINGREFERENCE – Originating reference
+ENTRYUSERID – Entry user
+ENTRYDATETIME – Entry timestamp
+APPROVERUSERID – Approver user
+APPROVEDDATETIME – Approval timestamp
+FILEREFERENCEINCOMING – Incoming file reference
+FILETOTALAM – Total amount in file
+ORIGINATINGSOURCE – Originating source system
+UNIQUEREFERENCE – Unique tracking reference
+HDRINITPTYNM – Initiating party name
+NUMBEROFBULKS – Number of bulks in batch
+BUSINESSDATE – Business date
+
+Primary Key:
+TPH_PPT_ID
+
+Usage:
+Used for bulk payment monitoring, file-level reconciliation,
+settlement tracking, operational dashboards, and audit reporting.
+  

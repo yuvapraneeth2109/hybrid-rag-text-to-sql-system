@@ -1,0 +1,25 @@
+Table Name: DM_AA_ARR_ACCOUNT
+
+Description:
+Stores arrangement-level account classification, sector, loan purpose, and reporting data by business date.
+
+Columns:
+- ID (Primary Key): Unique identifier for each arrangement account record
+- BUSINESS_DATE: Banking business date representing the arrangement snapshot
+- ARRANGEMENT_ID: Identifier of the customer arrangement or contract
+- PROPERTY: Code describing the arrangement type
+- DATE_SEQ_NO: Sequence number for ordering or processing
+- CSD_CLASS: Customer or credit class
+- CSD_LOAN_PURPOS: Loan purpose
+- CSD_SUB_CLASS: Sub-classification
+- CSD_SUB_SECTOR: Sub-sector classification
+- CO_CODE: Company or branch code
+- AUTHORISER: Authorizing person or system
+- CSD_MOB_BANK: Mobile or digital banking information
+- CREATED_DATE: Record creation timestamp
+- CSD_SECTOR: Sector classification
+- CATEGORY: High-level reporting category
+
+Usage:
+Used for arrangement classification, sector analysis, loan purpose reporting, and business-date–based snapshots.
+ 

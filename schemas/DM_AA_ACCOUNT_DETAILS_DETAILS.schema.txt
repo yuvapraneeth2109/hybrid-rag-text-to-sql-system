@@ -1,0 +1,28 @@
+Table Name: DM_AA_ACCOUNT_DETAILS_DETAILS
+
+Description:
+Stores detailed aging, billing, repayment, and schedule information for banking arrangements.
+
+Columns:
+- ID (Primary Key): Unique identifier for the account details record
+- ARRANGEMENT_ID: Identifier of the banking arrangement or account
+- AGE_ALL_DATE: Timestamp of the last aging calculation
+- AGE_ALL_STATUS: Overall aging status such as current or overdue
+- HOL_START_DATE: Start date of any holiday or payment deferral period
+- M: Numeric field used for aging or calculation purposes
+- NUM_PAYMENTS: Total number of payments made
+- PAYMENT_DATE: Date of a specific payment
+- REPAY_REFERENCE: Reference identifier for repayment transaction
+- S: Numeric field used for scheduling or sequencing
+- BILL_ID: Identifier for the bill
+- SCHEDULE_TYPE: Type of repayment schedule such as EMI or Bullet
+- BILL_TYPE: Type of bill generated
+- BILL_STATUS: Current status of the bill
+- SET_STATUS: Settlement or collection status
+- BUSINESS_DATE: Bank business date for the record
+- CREATED_DATE: Record creation timestamp
+- AGING_STATUS: Current aging status of the account
+
+Usage:
+Used for payment tracking, billing status checks, aging recalculations, and repayment analysis.
+ 

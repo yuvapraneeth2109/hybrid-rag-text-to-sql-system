@@ -1,0 +1,10 @@
+psycopg2-binary
+sqlalchemy
+streamlit
+faiss-cpu
+numpy
+pandas
+python-dotenv
+tqdm
+groq
+sentence-transformers

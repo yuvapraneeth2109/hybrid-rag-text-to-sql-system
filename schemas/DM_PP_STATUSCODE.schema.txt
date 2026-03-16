@@ -1,0 +1,19 @@
+Table Name: DM_PP_STATUSCODE
+
+Description:
+Reference table storing payment and transaction status codes including CSR and GPI classifications.
+
+Primary Key:
+- STATUSCODE
+
+Key Columns:
+- STATUSCODE: Payment or transaction status code
+- STATUSDESCRIPTION: Status meaning
+- CSRSTATUS: Customer service status
+- GPISTATUS: Cross-border payment tracking status
+- REASONCODE: Reason for the status
+- CO_CODE: Company or branch association
+
+Usage:
+Used for payment lifecycle tracking, transaction monitoring, customer service workflows, and SWIFT/GPI reporting.
+ 

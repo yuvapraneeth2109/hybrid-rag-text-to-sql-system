@@ -1,0 +1,22 @@
+Table Name: DM_AA_ARRANGEMENT_ACTIVITY
+
+Description:
+Stores activity history performed on customer arrangements, including authorization, effective dates, transaction amounts, and product context.
+
+Columns:
+- ACTIVITY: Type or name of activity performed on the arrangement
+- ARR_SEQUENCE: Sequence number ordering activities within an arrangement
+- ARRANGEMENT: Identifier of the customer arrangement or contract
+- AUTHORISER: Person or system that authorized the activity
+- EFFECTIVE_DATE: Date when the activity takes effect
+- ORIG_TXN_AMT: Original transaction amount associated with the activity
+- CO_CODE: Company or branch code responsible for the activity
+- BUSINESS_DATE: Banking business date for processing and reporting
+- PRODUCT: Product or service associated with the activity
+
+Primary Key:
+(ARRANGEMENT, ARR_SEQUENCE)
+
+Usage:
+Used for arrangement activity timelines, audit tracking, authorization review, and transaction history analysis.
+ 

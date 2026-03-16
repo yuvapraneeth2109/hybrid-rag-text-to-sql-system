@@ -1,0 +1,17 @@
+Table Name: DM_TPH_CSD_BOP_PURPOSE
+
+Description:
+Reference table storing Balance of Payments (BOP) purpose codes and descriptions for regulatory and FX reporting.
+
+Primary Key:
+- PURPOSE_ID
+
+Key Columns:
+- PURPOSE_ID: BOP purpose identifier
+- DESCRIPTION: Full purpose description
+- SHORT_NAME: Short purpose name
+- SECTOR_ID: Sector classification
+
+Usage:
+Used for Balance of Payments reporting, FX transaction classification, regulatory submissions, and compliance analytics.
+ 

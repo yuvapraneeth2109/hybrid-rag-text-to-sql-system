@@ -1,0 +1,125 @@
+Table Name: DM_TPH_POR
+
+Description:
+Stores TPH payment order records including complete lifecycle information, amounts, currencies, channels, charges, and regulatory attributes.
+
+Columns:
+TPH_POR_ID – Unique payment order identifier
+BENEFICIARY_ID – Beneficiary identifier
+CHEQUE_STATUS – Cheque processing status
+CANCEL_MSG_REFERENCE – Cancellation message reference
+PAYMENT_STATUS_MSG_REF – Payment status message reference
+ORIGINAL_OR_RETURN_ID – Original or return transaction reference
+ID – Internal system identifier
+COMPANYID – Company initiating payment
+STATUSCODE – Payment processing status code
+STATUS – Numeric status indicator
+PARENTFTNUMBER – Parent financial transaction reference
+PAYMENTDIRECTION – Incoming or outgoing indicator
+CTRBTRINDICATOR – Contributor indicator
+STATUSDATETIME – Timestamp of status update
+STATUSDATE – Date of status update
+SPECIFICWEIGHTCODE – Specific processing priority
+WEIGHTCODE – General processing priority
+DOMESTICINTERNATIONAL – Domestic or international flag
+MESSAGEFORMAT – Message format (ISO20022 / SWIFT)
+TRANSACTIONREFERENCEINCOMING – Incoming transaction reference
+COMPANYREGION – Company region
+SENDERADDRESS – Sender address
+RECEIVERADDRESS – Receiver address
+SENDERSREFERENCEINCOMING – Sender incoming reference
+SENDERSREFERENCEOUTGOING – Sender outgoing reference
+BANKOPERATIONCODE – Bank operation code
+DEBITMAINACCOUNT – Debit account
+DEBITMAINACCOUNTCURRENCYCODE – Debit account currency
+DEBITPARTYLINE1 – Debit party name/address line 1
+DEBITPARTYLINE2 – Debit party name/address line 2
+DEBITPARTYLINE3 – Debit party name/address line 3
+DEBITMAINAMOUNT – Debit amount
+CREDITMAINACCOUNT – Credit account
+CREDITPARTYLINE1 – Credit party name/address line 1
+CREDITPARTYLINE2 – Credit party name/address line 2
+CREDITMAINAMOUNT – Credit amount
+TRANSACTIONAMOUNT – Transaction amount
+TRANSACTIONAMOUNTHOME – Home currency amount
+TRANSACTIONCURRENCYCODE – Transaction currency
+DETAILSOFCHARGES – Charges details
+REQUESTEDEXECUTIONDATE – Requested execution date
+DEBITVALUEDATE – Debit value date
+CREDITVALUEDATE – Credit value date
+ORIGINATINGSOURCE – Source system
+ORIGINATINGCHANNEL – Origination channel
+INCOMINGMESSAGETYPE – Incoming message type
+OUTPUTCHANNEL – Output channel
+OUTGOINGMESSAGETYPE – Outgoing message type
+BATCHINDICATOR – Batch indicator
+NUMBEROFCHILDREN – Number of child transactions
+BATCHREFERENCE – Batch reference
+FILEREFERENCEINCOMING – Incoming file reference
+FILEREFERENCEOUTGOING – Outgoing file reference
+FILESENDERSREFERENCE – File sender reference
+REASONDESCRIPTION – Reason description
+CHEQUENUMBER – Cheque number
+CHEQUETYPE – Cheque type
+PROCESSINGDATE – Processing date
+ORDERINGPARTYRESIDENCY – Ordering party residency
+REJECTDESCRIPTION – Rejection description
+RETURNTRIGGER – Return trigger
+ENTRYUSERID – Entry user
+ENTRYDATETIME – Entry timestamp
+APPROVEDDATETIME – Approval timestamp
+APPROVERUSERID1 – Approver user
+ENDTOENDREFERENCE – End-to-end reference
+POSTINGCHARGEAMOUNTDEBIT – Debit posting charges
+POSTINGCHARGEAMOUNTCREDIT – Credit posting charges
+BULKREFERENCEOUTGOING – Outgoing bulk reference
+BULKREFERENCEINCOMING – Incoming bulk reference
+BUSINESS_DATE – Business date
+TRANSACTION_REF_NO – Transaction reference number
+SOURCE – Source system
+DIRECTION – Debit or credit
+PROCESS_COMPANY – Processing company
+TRANSACTION_AMOUNT – Transaction amount
+CHARGE_OPTION – Charge option code
+CHARGEOPTION – Charge option description
+DEBIT_ACCOUNT_NUMBER – Debit account number
+DEBIT_AMOUNT – Debit amount
+DEBIT_VALUE_DATE – Debit value date
+CREDIT_ACCOUNT_NUMBER – Credit account number
+CREDIT_AMOUNT – Credit amount
+CREDIT_VALUE_DATE – Credit value date
+CREATED_DATE – Record creation date
+UPDATED_DATE – Record update date
+BOP_SECTOR – BOP sector
+CSD_BOP_PURPOSE – BOP purpose
+RECEIVERINSTITUTIONBIC – Receiver bank BIC
+SENDERINSTITUTIONBIC – Sender bank BIC
+TPH_ID_NO – TPH system identifier
+DEBITTREASURYRATE – Debit treasury rate
+CREDITTREASURYRATE – Credit treasury rate
+TRANSACTIONREFERENCENUMBER – TPH reconciliation reference
+CAPTURE_ID – Capture event ID
+BENEFICIARYACCOUNT – Beneficiary account
+BENEFICIARYIDENTIFIERCODE – Beneficiary identifier code
+BENEFICIARYNAME – Beneficiary name
+CO_CODE – Company code
+RSCPAYMENTORDER – RSC payment order reference
+ORDERINGIDENTIFIERCODE – Ordering identifier
+SENDERSCORRESIDENTIFIERCODE – Sender correspondent code
+RECEIVERSCORRESIDENTIFIERCODE – Receiver correspondent code
+THIRDREIMBURSEINSTIDENTIFIERCODE – Third reimbursement institution
+INTERMEDIARYINSTIDENTIFIERCODE – Intermediary institution
+ACCOUNTWITHINSTIDENTIFIERCODE – Account-with institution
+PAYMENTDETAILS – Payment narrative
+RELATEDREFERENCE – Related reference
+EXCHANGERATE – Exchange rate
+BOOKDATE – Booking date
+INPUTTER – Record input user
+AUTHORISER – Record authoriser
+
+Primary Key:
+TPH_POR_ID
+
+Usage:
+Payments processing, SWIFT / ISO20022 tracking, lifecycle monitoring, returns, regulatory and BOP reporting, operations dashboards.
+  

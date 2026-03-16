@@ -1,0 +1,23 @@
+Table Name: DM_STMT_ENTRY
+
+Description:
+Stores account statement transaction entries with amounts, references, balances, and business date tracking.
+
+Primary Key:
+- STMT_ENTRY_SK (surrogate)
+
+Business Key:
+- ID + BUSINESS_DATE
+
+Key Columns:
+- ACCOUNT_NUMBER: Account identifier
+- CUSTOMER: Customer reference
+- TRANSACTION_CODE: Transaction type
+- AMOUNT_LCY: Transaction amount
+- RUNNING_BALANCE_LCY: Balance after transaction
+- VALUE_DATE: Effective transaction date
+- BUSINESS_DATE: Reporting business date
+
+Usage:
+Used for account statements, transaction history, balance reconstruction, customer queries, and operational reporting.
+  

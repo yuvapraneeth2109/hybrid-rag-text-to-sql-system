@@ -1,0 +1,21 @@
+Table Name: DM_AA_ARRANGEMENT_ACTIVITY_DETAILS
+
+Description:
+Stores field-level change details, audit information, and narratives related to arrangement activities.
+
+Columns:
+- ID (Primary Key): Unique identifier for the activity detail record
+- ARR_SEQUENCE: Sequence number linking this detail to an arrangement activity
+- FIELD_NAME: Name of the field affected by the activity
+- INPUTTER: Person or system that performed the activity
+- DATE_TIME: Exact timestamp of the activity detail
+- REASON: Reason for the activity or change
+- NARRATIVE: Detailed description of the activity
+- M: Generic numeric field for internal calculations
+- S: Generic numeric field for sequencing or system metrics
+- BUSINESS_DATE: Banking business date for processing
+- CREATED_DATE: Record creation timestamp
+
+Usage:
+Used for audit trails, field-level change tracking, activity analysis, and compliance reporting.
+ 

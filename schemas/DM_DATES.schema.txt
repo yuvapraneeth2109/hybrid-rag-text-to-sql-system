@@ -1,0 +1,19 @@
+Table Name: DM_DATES
+
+Description:
+Calendar date dimension table providing week, month, quarter, and year attributes for reporting.
+
+Primary Key:
+- BUSINESS_DATE
+
+Key Columns:
+- BUSINESS_DATE: Calendar date
+- CURRENT_WEEK: Week of year
+- CURRENT_MONTH: Month number
+- CURRENT_YEAR: Year
+- CURRENT_QUARTER: Quarter
+- MONTH_END_DATE: Month-end date
+
+Usage:
+Used for time-based aggregations, trend analysis, month-end reporting, and joining with fact tables by business date.
+ 

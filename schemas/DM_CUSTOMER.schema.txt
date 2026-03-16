@@ -1,0 +1,22 @@
+Table Name: DM_CUSTOMER
+
+Description:
+Stores customer master data including identity details, KYC, risk classification, segmentation, and effective-dated history.
+
+Primary Key:
+- CUSTOMER_CODE + EFFECTIVE_START_DATE
+
+Key Columns:
+- CUSTOMER_CODE: Customer identifier
+- CUSTOMER_TYPE: Individual or corporate
+- CUSTOMER_STATUS: Operational status
+- CALC_RISK_CLASS: System risk classification
+- MANUAL_RISK_CLASS: Manual risk override
+- COUNTRY: Customer country
+- DATE_OF_BIRTH: Date of birth
+- EFFECTIVE_START_DATE: Record effective start date
+- EFFECTIVE_END_DATE: Record effective end date
+
+Usage:
+Used for customer profiling, KYC and AML compliance, risk assessment, segmentation analysis, and customer-level reporting.
+ 

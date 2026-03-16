@@ -1,0 +1,30 @@
+Table Name: DM_TPH_POR_DETAILS
+
+Description:
+Stores supplementary and extended information related to TPH payment orders.
+Used to capture additional attributes, local fields, responses, and accounting references
+that do not fit directly into the main payment order table.
+
+Columns:
+TPH_DETAIL_ID – Unique identifier for the payment order detail record
+TPH_POR_ID – Reference to the parent TPH payment order
+ADDITIONAL_INF_LINE – Free-text additional information or notes
+LOC_FIELD_NAME – Name of a local or custom field
+LOC_FIELD_VALUE – Value of the local or custom field
+RESPONSE_DETAILS – System or external response details
+ENTRY_IDS – Comma-separated list of related entry identifiers
+ACCOUNT_NUMBER – Account number linked to the detail
+BUSINESS_DATE – Business date of the detail record
+M – Internal marker field
+S – Internal marker field
+
+Primary Key:
+TPH_DETAIL_ID
+
+Relationship:
+Many detail records may exist for a single TPH payment order (TPH_POR_ID).
+
+Usage:
+Used for payment investigations, reconciliation, audit trails, extended messaging fields,
+and operational analysis where additional payment attributes are required.
+ 

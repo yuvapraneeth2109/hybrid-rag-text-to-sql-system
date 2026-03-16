@@ -1,0 +1,16 @@
+Table Name: DM_PP_MSGPAYMENTTYP
+
+Description:
+Reference table storing payment message types used in banking and SWIFT-based payment processing.
+
+Primary Key:
+- MESSAGEPAYMENTTYPE
+
+Key Columns:
+- MESSAGEPAYMENTTYPE: Payment message code (e.g., MT103, MT202)
+- MESSAGEPAYMENTTYPEDESC: Description of the message type
+- CO_CODE: Company or branch association
+
+Usage:
+Used to classify and describe payment messages in transaction processing, SWIFT reporting, and payment analytics.
+  

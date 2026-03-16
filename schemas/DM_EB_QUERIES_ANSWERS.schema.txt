@@ -1,0 +1,22 @@
+Table Name: DM_EB_QUERIES_ANSWERS
+
+Description:
+Stores electronic banking customer queries and answers including lifecycle status, customer linkage, and business date tracking.
+
+Primary Key:
+- EB_QA_SK (surrogate)
+
+Business Key:
+- EB_QUERIES_ANS_ID + BUSINESS_DATE
+
+Key Columns:
+- EB_QUERIES_ANS_ID: Query or answer identifier
+- CUSTOMER_NO: Customer reference
+- STATUS: Query status
+- CREATION_DATE: Creation timestamp
+- BUSINESS_DATE: Reporting business date
+- CO_CODE: Company or branch code
+
+Usage:
+Used for customer support reporting, query lifecycle tracking, service quality analysis, and electronic banking operations monitoring.
+  

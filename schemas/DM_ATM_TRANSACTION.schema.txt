@@ -1,0 +1,24 @@
+Table Name: DM_ATM_TRANSACTION
+
+Description:
+Stores ATM and POS transaction records including amounts, accounts, charges, reversals, network details, and processing status.
+
+Primary Key:
+- ATM_TXN_SK (surrogate)
+
+Business Key:
+- ATM_TXN_ID + BUSINESS_DATE
+
+Key Columns:
+- ATM_TXN_ID: ATM transaction identifier
+- DEBIT_ACCT_NO: Debit account
+- DR_CUSTOMER_ID: Customer identifier
+- TXN_AMOUNT: Transaction amount
+- TRANS_STATUS: Transaction status
+- TXN_TYPE: Type of transaction
+- BAL_AFT_TXN: Balance after transaction
+- BUSINESS_DATE: Reporting business date
+
+Usage:
+Used for ATM/POS transaction reporting, reconciliation, fraud analysis, customer activity analysis, and operational dashboards.
+ 

@@ -1,0 +1,38 @@
+Table Name: DM_AA_CONTRACT_D
+
+Description:
+Stores contract-level details including product, customer, officer, financial terms, dates, and status by business date.
+
+Columns:
+- BUSINESS_DATE: Banking business date snapshot of the contract
+- ARRANGEMENT_ID: Identifier of the customer arrangement
+- CUSTOMER_CODE: Customer code linked to the contract
+- LINKED_APPL_ID (Primary Key): Originating application identifier
+- ACCOUNT_OFFICER_CODE: Account officer managing the contract
+- BRANCH_CODE: Branch where the contract is maintained
+- PRODUCT: Product associated with the contract
+- PRODUCT_LINE: Product line classification
+- CURRENCY_CODE: Contract currency
+- LIMIT_REF: Credit or loan limit reference
+- FIXED_RATE: Fixed interest rate
+- MATURITY_DATE: Contract maturity date
+- PAYMENT_START_DATE: Payment schedule start date
+- PAYMENT_END_DATE: Payment schedule end date
+- DEPT_OFFICER_NAME: Department officer handling the contract
+- INSURANCE_NAME: Insurance associated with the contract
+- MANUAL_CLASS: Manual classification
+- SECTOR_NAME: Sector classification
+- RESTRUCTURE_AMT: Restructured amount
+- START_DATE: Contract start date
+- PROFILE_ID: Customer profile identifier
+- ARR_STATUS: Contract status
+- HASH_COLUMN: Record hash for integrity
+- ARRANGEMENT_SEQ_NO: Arrangement sequence number
+- CO_CODE: Company code
+- CUSTOMER: Customer identifier or name
+- PRODUCT_GROUP: Product grouping
+- ORIG_CONTRACT_DATE: Original contract creation date
+
+Usage:
+Used for contract reporting, product analysis, customer exposure, maturity tracking, and compliance reporting.
+ 

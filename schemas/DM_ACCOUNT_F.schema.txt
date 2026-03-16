@@ -1,0 +1,20 @@
+Table Name: DM_ACCOUNT_F
+
+Description:
+Stores account-level financial balances, limits, and status by business date for reporting and reconciliation.
+
+Primary Key:
+- ACCOUNT_SEQ_NO + BUSINESS_DATE
+
+Key Columns:
+- ACCOUNT_SEQ_NO: Account identifier
+- BUSINESS_DATE: Balance snapshot date
+- WORKING_BALANCE: Available working balance
+- ONLINE_ACTUAL_BAL: Real-time balance
+- LOCKED_AMOUNT: Blocked amount
+- ACC_DEB_LIMIT: Debit limit
+- STATUS: Financial record status
+
+Usage:
+Used for balance reporting, account reconciliation, customer exposure analysis, liquidity monitoring, and operational dashboards.
+  
