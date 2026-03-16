@@ -8,7 +8,7 @@ The entire system runs locally to ensure that sensitive financial data never lea
 
 ##Sample output:
 
-https://youtu.be/p9Claq39a0s?si=e4s1JJJEzPCKJAYm
+Watch full demo here:  https://youtu.be/p9Claq39a0s?si=e4s1JJJEzPCKJAYm
 
 ---
 
